@@ -4,7 +4,7 @@ Repository to hold a study with implementation related to data intensive apps.
 # Overview
 The data-intensive application I am refering to are those applications where there are near or more than 1 TB of data stored, and it is necessary to perform fast queries to reply to the user, less than 500ms.
 
-This kind of challenge is growing with some specific types of business working online, such as social media, online stores, online banking, etc. These type of business have to usually store a lots os user information, either for fraud analisys, data analysis, or to allow the user to navigate through anytime on the history, such as old social media posts, all banking statements, previous purchages online on the online store.
+This kind of challenge is growing with some specific types of business working online, such as social media, online banking, etc. These type of business have to usually store a lots os user information, either for fraud analisys, data analysis, or to allow the user to navigate through anytime on the history, such as old social media posts, all banking statements, previous purchages online on the online store.
 
 # The implementation and this repository
 The idea of this repository is to gather and apply some best practices related to data-intensive applications, addressing some common problems when dealing with data-intensive apps such as `caching`, `pagination`, `indexes`, `concurrency`, etc.
@@ -16,7 +16,8 @@ Also some implementation not related with the intensive-data goal will not be co
 
 
 # Application Use Cases
-TBD
+News. The use case will be bases on News inserted on the data layer. List of use cases below. 
+![use case daigram](docs/app-diagram.drawio.png)
 
 # Architecture
 - Domain Driven Design
@@ -41,3 +42,7 @@ Backend
 - [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) (2017) written by `Martin Kleppmann`
 - [Clean Architecture: A Craftsman's Guide to Software Structure and Design](https://pearson.instructure.com/eportfolios/71582) (2017) by `Robert C. Martin` (Uncle Bob)
 - [Clean Architecture with .NET Core & React+Redux](https://github.com/ivanpaulovich/clean-architecture-manga) (Open Source Software) by `Ivan Paulovich` and contributors
+
+# Tools
+- VS Code
+- VS Code Drawio Extension https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio
