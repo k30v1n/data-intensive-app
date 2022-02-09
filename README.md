@@ -16,7 +16,7 @@ Also some implementation not related with the intensive-data goal will not be co
 
 
 # Application Use Cases
-News. The use case will be bases on News inserted on the data layer. List of use cases below. 
+News. The use case will be based on News inserted on the data layer. List of use cases below. 
 ![use case daigram](docs/app-diagram.drawio.png)
 
 # Architecture
